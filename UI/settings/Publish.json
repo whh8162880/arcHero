@@ -2,15 +2,15 @@
 	"binaryFormat":true,
 	"codeGeneration":{
 		"classNamePrefix":"UI_",
-		"codePath":"",
-		"codeType":"",
-		"getMemberByName":false,
+		"codePath":"../src/com/ui",
+		"codeType":"TS-2",
+		"getMemberByName":true,
 		"ignoreNoname":false,
 		"memberNamePrefix":"m_",
 		"packageName":""
 	},
-	"compressDesc":true,
+	"compressDesc":false,
 	"fileExtension":"",
 	"packageCount":2,
-	"path":"./out"
+	"path":"../bin/res"
 }

@@ -13,5 +13,5 @@
     <component id="ad2h9" name="Grass.xml" path="/"/>
     <image id="ad2hc" name="gateopen #1918.png" path="/assets/"/>
   </resources>
-  <publish name="Package1"/>
+  <publish name="map" genCode="true"/>
 </packageDescription>
