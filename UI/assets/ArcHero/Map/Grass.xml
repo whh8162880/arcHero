@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <image id="n80_ad2h" name="n80" src="ad2h6" fileName="Game/assets/grass1 #37262.png" xy="0,0" size="600,1000"/>
+  </displayList>
+</component>

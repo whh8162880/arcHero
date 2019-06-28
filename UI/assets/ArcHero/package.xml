@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="otz1usab" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ad2h0" name="Map.xml" path="/Map/" exported="true"/>
+    <image id="ad2h1" name="edge-up #28219.png" path="/Map/assets/"/>
+    <image id="ad2h2" name="edge-down #14293.png" path="/Map/assets/"/>
+    <image id="ad2h3" name="edge900-right.png" path="/Map/assets/"/>
+    <image id="ad2h4" name="edge900-left #6817.png" path="/Map/assets/"/>
+    <image id="ad2h5" name="grass2 #13820.png" path="/Map/assets/"/>
+    <image id="ad2h6" name="grass1 #37262.png" path="/Map/assets/" scale="tile"/>
+    <image id="ad2h7" name="element0101 #14296.png" path="/Map/assets/"/>
+    <image id="ad2h8" name="element0202 #7960.png" path="/Map/assets/"/>
+    <component id="ad2h9" name="Grass.xml" path="/Map/"/>
+    <image id="ad2hc" name="gateopen #1918.png" path="/Map/assets/"/>
+  </resources>
+  <publish name="Package1"/>
+</packageDescription>

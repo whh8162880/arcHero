@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,1335">
+  <displayList>
+    <component id="n8_ad2h" name="n8" src="ad2h9" fileName="Game/Grass.xml" xy="0,283" size="100,100"/>
+    <image id="n0_ad2h" name="n0" src="ad2h1" fileName="Game/assets/edge-up #28219.png" xy="0,0" locked="true"/>
+    <image id="n2_ad2h" name="n2" src="ad2h3" fileName="Game/assets/edge900-right.png" xy="600,335" locked="true"/>
+    <image id="n3_ad2h" name="n3" src="ad2h4" fileName="Game/assets/edge900-left #6817.png" xy="0,335" locked="true"/>
+    <image id="n4_ad2h" name="n4" src="ad2h4" fileName="Game/assets/edge900-left #6817.png" xy="0,785" locked="true"/>
+    <image id="n5_ad2h" name="n5" src="ad2h3" fileName="Game/assets/edge900-right.png" xy="600,785" locked="true"/>
+    <image id="n6_ad2h" name="n6" src="ad2h2" fileName="Game/assets/edge-down #14293.png" xy="0,1235" locked="true"/>
+    <image id="n14_ad2h" name="n14" src="ad2hc" fileName="Game/assets/gateopen #1918.png" xy="261,90"/>
+  </displayList>
+</component>
