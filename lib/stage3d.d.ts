@@ -934,7 +934,9 @@ declare module rf {
     let componentSource: BitmapSource;
     let textSource: BitmapSource;
     function createBitmapSource(name: string, w: number, h: number, origin?: boolean): BitmapSource;
-    function createUrlSource(url: string, extendtion?: ExtensionDefine, complete?: Function): UrlBitmapSource;
+    function createUrlSource(url: string, extendtion?: ExtensionDefine, complete?: Function, CLS?: {
+        new (url: string): UrlBitmapSource;
+    }): UrlBitmapSource;
 }
 declare module rf {
     function inRange(a: any, min: any, max: any): boolean;

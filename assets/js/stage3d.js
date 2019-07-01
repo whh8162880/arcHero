@@ -3423,11 +3423,14 @@ var rf;
         return source;
     }
     rf.createBitmapSource = createBitmapSource;
-    function createUrlSource(url, extendtion, complete) {
+    function createUrlSource(url, extendtion, complete, CLS) {
         url = rf.getFullUrl(url, extendtion);
         var source = rf.bitmapSources[url];
+        if (!CLS) {
+            CLS = UrlBitmapSource;
+        }
         if (!source) {
-            rf.bitmapSources[url] = source = new UrlBitmapSource(url);
+            rf.bitmapSources[url] = source = new CLS(url);
             source.load();
         }
         else if (source.status == 0) {
