@@ -65,7 +65,7 @@ module rf{
 
             completeFuncs.length = 0;
 
-            this.simpleDispatch(EventT.COMPLETE);
+            this.simpleDispatch(EventT.COMPLETE,this);
         }
 
 

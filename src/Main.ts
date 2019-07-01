@@ -13,7 +13,21 @@ module rf{
 
             RES_PERFIX = "./assets/";
 
-            createUrlSource("ui/map/map",ExtensionDefine.NONE,undefined,TSource);
+            createUrlSource("ui/map/map",ExtensionDefine.NONE,this.mapLoadCompleteHandler.bind(this),TSource);
+        }
+
+        mapLoadCompleteHandler(source:TSource){
+
+            let sp = new Sprite(source);
+
+            let{graphics} = sp;
+
+            graphics.clear();
+            graphics.drawBitmap(0,0,source.data.frames["edge-up #28219"]);
+            graphics.end();
+
+            ROOT.addChild(sp);
+
         }
     }
 }
