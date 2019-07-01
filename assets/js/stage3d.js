@@ -6145,7 +6145,7 @@ var rf;
                 def += "varying vec3 vpos;\n";
             }
             func += Shader.FUNC_SAT;
-            return "\nprecision mediump float;\n// precision lowp float;\n" + def + "\n" + func + "\nvoid main(void){\n    " + code + "\n    gl_FragColor = color;   \n}\n";
+            return "\n// precision mediump float;\nprecision highp float;\n// precision lowp float;\n" + def + "\n" + func + "\nvoid main(void){\n    " + code + "\n    gl_FragColor = color;   \n}\n";
         };
         Shader.FUNC_QUA2MAT = "\nmat4 qua2mat(vec4 qua,vec4 pos){\n    vec4 t1 = qua * qua;\n    vec3 t2 = 2.0 * qua.xxx * qua.yzw;\n    vec3 t3 = 2.0 * qua.yyz * qua.zww;\n    return mat4(\n        t1.x - t1.y - t1.z + t1.w , t2.x + t3.z , t2.y - t3.y , 0.0 ,\n        t2.x - t3.z , -t1.x + t1.y - t1.z + t1.w , t3.x + t2.z , 0.0 ,\n        t2.y + t3.y , t3.x - t2.z , -t1.x - t1.y + t1.z + t1.w , 0.0 ,\n        pos.x,pos.y,pos.z,1.0\n    );\n}\n";
         Shader.FUNC_SHADOW_ENCODE = "\nconst vec3 PackFactors2 = vec3( 256. * 256. * 256., 256. * 256., 256. );\nconst float PackUpscale = 256. / 255.;\nconst float ShiftRight8 = 1. / 256.;\n\nvec4 packDepthToRGBA( float v ) {\n    vec4 r = vec4( fract( v * PackFactors2 ), v );\n    r.yzw -= r.xyz * ShiftRight8;\n    return r * PackUpscale;\n}\n";
@@ -8734,7 +8734,6 @@ var rf;
                 return;
             }
             var sp;
-            var names;
             for (var i = 0; i < elements.length; i++) {
                 var ele = elements[i];
                 var type = ele.type, x = ele.x, y = ele.y, rect = ele.rect, name_2 = ele.name, matrix2d = ele.matrix2d;

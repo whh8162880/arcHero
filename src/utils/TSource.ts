@@ -9,6 +9,11 @@ module rf{
         height:number;
     }
 
+    export interface IDisplayFrameElement{
+        id:string;
+    }
+
+
     export class TSource extends UrlBitmapSource{
 
         task:LoadTask;

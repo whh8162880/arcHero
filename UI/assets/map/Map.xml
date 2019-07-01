@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="650,1335">
   <displayList>
-    <component id="n8_ad2h" name="n8" src="ad2h9" fileName="Grass.xml" xy="0,283" size="100,100"/>
+    <component id="n8_ad2h" name="n8" src="ad2h9" fileName="Grass.xml" xy="1,282" size="100,100"/>
     <image id="n0_ad2h" name="n0" src="ad2h1" fileName="assets/edge-up #28219.png" xy="0,0"/>
-    <image id="n2_ad2h" name="n2" src="ad2h3" fileName="assets/edge900-right.png" xy="600,335"/>
-    <image id="n3_ad2h" name="n3" src="ad2h4" fileName="assets/edge900-left #6817.png" xy="0,335"/>
-    <image id="n4_ad2h" name="n4" src="ad2h4" fileName="assets/edge900-left #6817.png" xy="0,785"/>
-    <image id="n5_ad2h" name="n5" src="ad2h3" fileName="assets/edge900-right.png" xy="600,785"/>
-    <image id="n6_ad2h" name="n6" src="ad2h2" fileName="assets/edge-down #14293.png" xy="0,1235"/>
-    <image id="n14_ad2h" name="n14" src="ad2hc" fileName="assets/gateopen #1918.png" xy="261,90" locked="true"/>
+    <image id="n2_ad2h" name="n2" src="ad2h3" fileName="assets/edge900-right.png" xy="600,334"/>
+    <image id="n3_ad2h" name="n3" src="ad2h4" fileName="assets/edge900-left #6817.png" xy="0,334"/>
+    <image id="n4_ad2h" name="n4" src="ad2h4" fileName="assets/edge900-left #6817.png" xy="0,783"/>
+    <image id="n5_ad2h" name="n5" src="ad2h3" fileName="assets/edge900-right.png" xy="600,783"/>
+    <image id="n6_ad2h" name="n6" src="ad2h2" fileName="assets/edge-down #14293.png" xy="0,1232"/>
+    <image id="n14_ad2h" name="n14" src="ad2hc" fileName="assets/gateopen #1918.png" xy="261,90"/>
   </displayList>
 </component>

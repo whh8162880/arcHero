@@ -7,7 +7,7 @@
     <image id="ad2h3" name="edge900-right.png" path="/assets/"/>
     <image id="ad2h4" name="edge900-left #6817.png" path="/assets/"/>
     <image id="ad2h5" name="grass2 #13820.png" path="/assets/"/>
-    <image id="ad2h6" name="grass1 #37262.png" path="/assets/" scale="tile"/>
+    <image id="ad2h6" name="grass1 #37262.png" path="/assets/"/>
     <image id="ad2h7" name="element0101 #14296.png" path="/assets/"/>
     <image id="ad2h8" name="element0202 #7960.png" path="/assets/"/>
     <component id="ad2h9" name="Grass.xml" path="/"/>

@@ -8,23 +8,33 @@ module rf{
 
         init(canvas: HTMLCanvasElement): void{
             super.init(canvas);
-            ROOT.addChild(singleton(GUIProfile));
 
+            Engine.setDisplayArea(640,1080)
+
+            // ROOT.addChild(singleton(GUIProfile));
+
+            context3D.defauleMag = WebGLConst.LINEAR;
 
             RES_PERFIX = "./assets/";
+
+            TComponentClass = {
+                1 : TComponent
+            }
 
             createUrlSource("ui/map/map",ExtensionDefine.NONE,this.mapLoadCompleteHandler.bind(this),TSource);
         }
 
         mapLoadCompleteHandler(source:TSource){
 
-            let sp = new Sprite(source);
+            let sp = new TComponent(source);
+            sp.symbol = "Map";
+            sp.gotoAndStop(0);
 
-            let{graphics} = sp;
+            // let{graphics} = sp;
 
-            graphics.clear();
-            graphics.drawBitmap(0,0,source.data.frames["edge-up #28219"]);
-            graphics.end();
+            // graphics.clear();
+            // graphics.drawBitmap(0,0,source.data.frames["edge-up #28219"]);
+            // graphics.end();
 
             ROOT.addChild(sp);
 

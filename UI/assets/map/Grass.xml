@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="100,100">
   <displayList>
-    <image id="n80_ad2h" name="n80" src="ad2h6" fileName="Game/assets/grass1 #37262.png" xy="0,0" size="600,1000"/>
+    <image id="n80_ad2h" name="n80" src="ad2h6" fileName="assets/grass1 #37262.png" xy="0,0" size="100,100"/>
+    <image id="n81_ftaq" name="n81" src="ad2h6" fileName="assets/grass1 #37262.png" xy="100,0" size="100,100"/>
+    <image id="n82_ftaq" name="n82" src="ad2h6" fileName="assets/grass1 #37262.png" xy="200,0" size="100,100"/>
+    <image id="n83_ftaq" name="n83" src="ad2h6" fileName="assets/grass1 #37262.png" xy="300,0" size="100,100"/>
+    <image id="n84_ftaq" name="n84" src="ad2h6" fileName="assets/grass1 #37262.png" xy="400,0" size="100,100"/>
+    <image id="n85_ftaq" name="n85" src="ad2h6" fileName="assets/grass1 #37262.png" xy="500,0" size="100,100"/>
+    <image id="n88_ftaq" name="n88" src="ad2h6" fileName="assets/grass1 #37262.png" xy="0,100" size="100,100"/>
+    <image id="n89_ftaq" name="n89" src="ad2h6" fileName="assets/grass1 #37262.png" xy="100,100" size="100,100"/>
+    <image id="n90_ftaq" name="n90" src="ad2h6" fileName="assets/grass1 #37262.png" xy="200,100" size="100,100"/>
+    <image id="n91_ftaq" name="n91" src="ad2h6" fileName="assets/grass1 #37262.png" xy="300,100" size="100,100"/>
+    <image id="n92_ftaq" name="n92" src="ad2h6" fileName="assets/grass1 #37262.png" xy="400,100" size="100,100"/>
+    <image id="n93_ftaq" name="n93" src="ad2h6" fileName="assets/grass1 #37262.png" xy="500,100" size="100,100"/>
   </displayList>
 </component>
