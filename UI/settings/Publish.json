@@ -4,7 +4,7 @@
 		"classNamePrefix":"UI_",
 		"codePath":"../src/com/ui",
 		"codeType":"TS-2",
-		"getMemberByName":true,
+		"getMemberByName":false,
 		"ignoreNoname":false,
 		"memberNamePrefix":"m_",
 		"packageName":""
@@ -12,5 +12,5 @@
 	"compressDesc":false,
 	"fileExtension":"",
 	"packageCount":2,
-	"path":"../bin/res"
+	"path":"../assets/ui"
 }
