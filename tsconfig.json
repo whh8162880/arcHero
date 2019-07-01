@@ -30,7 +30,7 @@
   ,
   "templete":"./template.html",
 
-  "main":"Main.js",
+  // "main":"Main.js",
 
   "engine":{
     "remote":"../engine/",

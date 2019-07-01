@@ -37,21 +37,20 @@
         <script type="text/javascript" src="assets/js/wechat.js"></script>
         <script type="text/javascript" src="assets/js/stage3d.js"></script>
 
-         <!--auto-->
+        <!--auto-->
+        <script src='Main.js'></script>
         <!--autoend-->
 
 
-        <script type="module">
-            import { Main } from "./Main.js"
-            /*config-start*/
-            /*config-end*/
-            var requestAnimationFrame = window['requestAnimationFrame'] || window['webkitRequestAnimationFrame'] || window['mozRequestAnimationFrame'] || window['oRequestAnimationFrame'] || window['msRequestAnimationFrame'];
-            new Main().init(document.getElementById("game"));
+        <script>
+            function setup(){
+                new rf.Main().init(document.getElementById("game"));
+            }
         </script>
 
 
     </head>
-    <body>
+    <body onload="setup()">
         <canvas id="game" style="width: 100%;height: 100%;"></canvas>
     </body>
 </html>
